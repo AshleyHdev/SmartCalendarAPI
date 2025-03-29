@@ -1,0 +1,16 @@
+2025-03-25 13:48:39.769 CST [7305] LOG:  starting PostgreSQL 14.17 (Homebrew) on aarch64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-03-25 13:48:39.771 CST [7305] LOG:  listening on IPv6 address "::1", port 5432
+2025-03-25 13:48:39.771 CST [7305] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-03-25 13:48:39.772 CST [7305] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-03-25 13:48:39.776 CST [7306] LOG:  database system was shut down at 2025-03-25 13:44:25 CST
+2025-03-25 13:48:39.780 CST [7305] LOG:  database system is ready to accept connections
+2025-03-25 13:49:04.293 CST [7340] FATAL:  role "postgres" does not exist
+2025-03-25 13:50:25.957 CST [7364] FATAL:  role "postgres" does not exist
+2025-03-25 13:50:36.675 CST [7377] FATAL:  database "a60_03" does not exist
+2025-03-25 13:55:45.023 CST [7447] ERROR:  syntax error at or near "ji394907" at character 1
+2025-03-25 13:55:45.023 CST [7447] STATEMENT:  ji394907
+	CREATE ROLE postgres WITH LOGIN SUPERUSER PASSWORD '你的密碼';
+2025-03-25 13:57:49.842 CST [7447] ERROR:  syntax error at or near "supersecurepassword123" at character 1
+2025-03-25 13:57:49.842 CST [7447] STATEMENT:  supersecurepassword123
+	CREATE DATABASE smart_calendar;
+2025-03-25 13:58:09.980 CST [7532] FATAL:  database "smart_calendar" does not exist

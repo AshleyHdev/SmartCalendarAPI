@@ -1,0 +1,17 @@
+# Python 虛擬環境
+venv/
+__pycache__/
+
+# Python cache files
+*.pyc
+*.pyo
+
+# IDE 設定檔
+.vscode/
+.idea/
+
+# 憑證與敏感資料
+.env
+
+# SQLite 資料庫檔案
+*.db
